@@ -1,0 +1,44 @@
+.Game {
+  max-width: 620px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  color: var(--main-text-color);
+}
+
+.GameTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--text-color-name);
+}
+
+.Win {
+  display: flex;
+  text-transform: uppercase;
+  color: var(--win-text-color);
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.Draw {
+  color: var(--draw-text-color);
+  margin-left: 0px;
+}
+
+@media (max-width: 650px) {
+  .Game {
+    height: min(100%, 470px);
+    gap: 16px;
+  }
+  .Win {
+    height: 92px;
+    margin-left: 0px;
+    max-width: 300px;
+  }
+}

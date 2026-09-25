@@ -1,0 +1,19 @@
+.GameVersus {
+  width: 345px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wrapperPlayerSign {
+  transform: scaleX(-1);
+}
+
+@media (max-width: 450px) {
+  .GameVersus {
+    width: 300px;
+  }
+}

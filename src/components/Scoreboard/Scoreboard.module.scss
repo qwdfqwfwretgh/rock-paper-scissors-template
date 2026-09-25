@@ -1,0 +1,30 @@
+.GameInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 420px;
+}
+
+.GameScore {
+  width: min(100%, 420px);
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.buttonReset {
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .GameInfo {
+    min-width: 100%;
+  }
+}

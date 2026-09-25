@@ -1,0 +1,27 @@
+.buttonTheme {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 650px) {
+  .buttonTheme {
+    top: 12px;
+    right: 12px;
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media (max-width: 450px) {
+  .buttonTheme {
+    top: 0px;
+    right: 0px;
+    width: 58px;
+    height: 58px;
+  }
+}

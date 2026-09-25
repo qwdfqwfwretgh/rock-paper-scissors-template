@@ -1,0 +1,25 @@
+.GameChoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--hint-text-color);
+  font-size: 14px;
+  gap: 24px;
+}
+
+.GameButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  gap: 48px;
+}
+
+@media (max-width: 650px) {
+  .GameButtons {
+    flex-direction: column;
+    height: 196px;
+    gap: 8px;
+  }
+}

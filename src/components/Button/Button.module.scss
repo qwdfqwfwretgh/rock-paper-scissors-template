@@ -1,0 +1,21 @@
+.button {
+  width: 170px;
+  height: min(90px, 100%);
+  background-color: var(--button-color);
+  font-size: 27px;
+  text-transform: uppercase;
+  border-radius: 14px;
+  border: 0px;
+  font-weight: bold;
+  color: var(--button-text-color);
+  cursor: pointer;
+  transition: all 0.1s;
+
+  &:hover {
+    background-color: var(--active-button-color);
+  }
+
+  &:active {
+    scale: 0.9;
+  }
+}

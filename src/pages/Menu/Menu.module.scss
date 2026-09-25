@@ -1,0 +1,27 @@
+.playSection {
+  max-width: 580px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.playText {
+  font-weight: bold;
+  font-size: 37px;
+  max-width: 380px;
+  text-align: left;
+  color: var(--text-color-name);
+}
+
+@media (max-width: 600px) {
+  .playSection {
+    flex-direction: column;
+    height: 250px;
+  }
+  .playText {
+    order: -1;
+    text-align: center;
+  }
+}
